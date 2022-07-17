@@ -1,0 +1,59 @@
+:root{
+    --Blue:#0a0c19;
+    --dark-violet:#1b1938;
+    --Violet:#aa5cdb;
+    --primary-font:font-family: 'Gentium Book Plus', serif;
+    --white:#f0dafd;
+    --off-white:#fdf68e;
+
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gentium Book Plus', serif;
+
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: var(--Blue);
+    height: 100vh;
+
+}
+.card
+{display: flex;
+    height: 60vh;
+width: 70%;
+border-radius: 8px;
+ }
+.Text{
+    width: 50%;
+    height: 100%;
+    background-color:var(--dark-violet)
+    ;
+    color:var(--white);
+    padding: 20px;
+}
+
+ 
+.Like{
+   padding: 20px;
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+    
+}
+ 
+ 
+.Img{
+    width: 50%;
+    height: 100%;
+background-color: var(--Violet);
+object-fit:cover;
+object-position: left;
+}
